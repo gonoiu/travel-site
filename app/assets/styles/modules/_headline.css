@@ -5,7 +5,6 @@
 
   @mixin atSmall {
     font-size: 2.875rem;
-
   }
 
   &--centered {
@@ -45,4 +44,7 @@
     margin-bottom: 1.6em;
   }
 
+  &--no-t-margin {
+    margin-top: 0;
+  }
 }
